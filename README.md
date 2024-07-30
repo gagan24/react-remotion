@@ -1,5 +1,17 @@
 # Remotion video
 
+## Features
+
+- Play and pause video
+- Add timestamp-based text overlays
+- Customize text animations and fonts
+
+## Usage
+
+1. Use the UI to play/pause the video.
+2. Add text overlays by entering text and timestamp.
+3. Customize animations and fonts for the text overlays.
+
 <p align="center">
   <a href="https://github.com/remotion-dev/logo">
     <picture>

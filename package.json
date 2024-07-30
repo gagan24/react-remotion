@@ -6,6 +6,8 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@remotion/cli": "4.0.188",
+    "@remotion/player": "^4.0.188",
+    "framer-motion": "^11.3.19",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "4.0.188"
