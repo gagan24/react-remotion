@@ -1,4 +1,3 @@
-// import { Composition } from "remotion";
 // import MyComposition from "./Composition";
 // export const RemotionRoot: React.FC = () => {
 //   return (
@@ -14,6 +13,8 @@
 //     </>
 //   );
 // };
+
+import { Composition } from "remotion";
 
 import React, { useState } from "react";
 import VideoPlayer from "./components/VideoPlayer";
@@ -64,6 +65,8 @@ const App: React.FC = () => {
       style={{
         display: "flex",
         gap: 4,
+        backgroundColor: "black",
+        width: "100%",
       }}
     >
       <VideoPlayer overlays={overlays} />
@@ -76,5 +79,20 @@ const App: React.FC = () => {
     </div>
   );
 };
+
+// export const RemotionRoot: React.FC = () => {
+//   return (
+//     <>
+//       <Composition
+//         id="MyComp"
+//         component={App}
+//         durationInFrames={120}
+//         fps={30}
+//         width={1600}
+//         height={680}
+//       />
+//     </>
+//   );
+// };
 
 export default App;
